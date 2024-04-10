@@ -36,7 +36,6 @@ import { useRoute } from 'vue-router';
 
 const meals = computed(() => store.state.searchedMeals)
 const route = useRoute()
-console.log(meals)
 
 let keyword = ref('')
 async function searchMeal() {
