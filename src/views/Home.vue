@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="flex flex-col items-center">
-            <div class="p-8 w-full">
+            <div class="py-8 w-full">
                 <input placeholder="Search meals" type="text" class="rounded border-gray-300 w-full">
             </div>
             <div class="flex justify-center gap-4">
