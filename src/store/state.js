@@ -1,5 +1,5 @@
 /** @format */
 
 export default {
-    meals: ["Salsa"],
+    searchedMeals: [],
 };
