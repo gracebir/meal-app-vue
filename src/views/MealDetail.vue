@@ -16,11 +16,11 @@
                 <div class="flex flex-col lg:flex-row gap-3">
                     <h1 class="font-semibold">Ingredients:</h1>
                     <div class="flex flex-wrap gap-3">
-                        <div class="bg-purple-300 rounded-lg px-3 py-2" v-for="(val, index) of new Array(12) "
-                            :key="index">
-                            <span v-if="meal[`strIngredient${index + 1}`]">
+                        <div v-for="(val, index) of new Array(12) " :key="index">
+                            <div class="bg-purple-300 rounded-lg px-3 py-2  text-gray-700 font-medium"
+                                v-if="meal[`strIngredient${index + 1}`]">
                                 {{ meal[`strIngredient${index + 1}`] }}
-                            </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -28,11 +28,11 @@
                 <div class="flex flex-col lg:flex-row gap-3">
                     <h1 class="font-semibold">Measures:</h1>
                     <div class="flex flex-wrap gap-3">
-                        <div class="bg-purple-300 rounded-lg px-3 py-2" v-for="(val, index) of new Array(12)  "
-                            :key="index">
-                            <span v-if="meal[`strMeasure${index + 1}`]">
+                        <div v-for="(val, index) of new Array(12)  " :key="index">
+                            <div class="bg-purple-300 rounded-lg px-3 py-2 text-gray-700 font-medium"
+                                v-if="meal[`strMeasure${index + 1}`]">
                                 {{ meal[`strMeasure${index + 1}`] }}
-                            </span>
+                            </div>
                         </div>
                     </div>
                 </div>
