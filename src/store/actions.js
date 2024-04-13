@@ -14,7 +14,7 @@ export async function searchMealByLetter({ commit }, keyword) {
 }
 
 export async function searchMealByIngredents({ commit }, keyword) {
-    const response = await axiosClient.get(`/list.php?i=${keyword}`);
+    const response = await axiosClient.get(`/search.php?s=${keyword}`);
     const data = await response.data;
     commit("setMealByIngredients", data.meals);
 }

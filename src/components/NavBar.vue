@@ -14,7 +14,7 @@
                     class="hover:underline duration-300 font-medium text-gray-600 hover:text-gray-800">
                     Meals By Letter
                 </router-link>
-                <router-link :to="{ name: 'MealByName' }"
+                <router-link :to="{ name: 'ingredient' }"
                     class="hover:underline duration-300 font-medium text-gray-600 hover:text-gray-800">
                     Meals By Ingredient
                 </router-link>
