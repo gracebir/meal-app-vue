@@ -10,7 +10,7 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, veniam dolorum quas facere
                 natus velit, eum maiores vel officiis nihil alias obcaecati eveniet atque omnis. </p>
             <div class="flex justify-between items-center">
-                <Youtube :href="strYoutube" text="Youtube" />
+                <Youtube :href="strYoutube">Got to Youtube</Youtube>
                 <router-link
                     class="border-blue-300 border-2 px-4 py-1 text-blue-300 hover:text-white font-medium duration-300 hover:bg-blue-300  rounded-lg"
                     :to="{ name: 'MealDetail', params: { id: idMeal } }">

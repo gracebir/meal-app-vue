@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div>
-                    <Youtube :href="meal.strYoutube" text="Go to Youtube" />
+                    <Youtube :href="meal.strYoutube">Youtube</Youtube>
                 </div>
 
             </div>

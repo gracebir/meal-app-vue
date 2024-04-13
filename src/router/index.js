@@ -22,7 +22,7 @@ const routes = [
             {
                 path: "/letter/:letter?",
                 name: "byLetter",
-                component: MealList,
+                component: SearchByLetter,
             },
             {
                 path: "/by-name/:name?",
