@@ -12,14 +12,10 @@
 </template>
 
 <script setup>
-import axiosClient from '../axiosclient'
 import { onMounted } from 'vue'
-import store from '../store'
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")
 
 onMounted(async () => {
-    const response = await axiosClient.get('/list.php?i=list');
-    const data = response.data
-    console.log(data)
+
 })
 </script>
